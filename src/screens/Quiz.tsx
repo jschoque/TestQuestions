@@ -13,6 +13,7 @@ const QuizScreen = ({ route, navigation }: Props) => {
 
     //Consulta el api de las preguntas
     useEffect(() => {
+        setCount(0)
         getQuestions().then((response: QuestionData) => {
             setQuestions(response.results)
         });
