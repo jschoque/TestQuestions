@@ -1,0 +1,1 @@
+export const URL = 'https://opentdb.com/api.php?amount=11&difficulty=hard&type=boolean';
